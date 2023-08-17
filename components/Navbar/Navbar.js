@@ -14,7 +14,7 @@ const Navbar = () => {
       <Link href="/">
         <Image src={logo} alt="logo" className="object-cover bg-transparent h-[50px] w-[50px] mt-2" />
       </Link>
-      <ul className={`lg:static lg:flex lg:flex-row lg:gap-0 lg:justify-around lg:w-[600px] ${isOpen ? "block" : "hidden"} w-auto top-24 left-5 flex flex-col gap-6 absolute`}>
+      <ul className={`lg:static lg:flex lg:flex-row lg:gap-0 lg:justify-around lg:w-[600px] ${isOpen ? "block" : "hidden"} w-auto top-20 right-4 p-3 flex flex-col gap-6 absolute bg-white lg:shadow-none shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]`}>
         <Link href="/"><li className="hover:text-blue-400 duration-300">Home</li></Link>
         <Link href="/search"><li className="hover:text-blue-400 duration-300">Find Jobs</li></Link>
         <Link href="/about"><li className="hover:text-blue-400 duration-300">About Us</li></Link>
