@@ -1,11 +1,13 @@
 @import '../../components/Navbar/Navbar.css';
 @import '../../components/common/Testimonials/styles.css';
+@import '../../components/About/AboutHero.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html, body{
-    max-width:100%;
-    overflow-x:hidden
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden
 }
