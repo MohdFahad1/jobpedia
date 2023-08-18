@@ -16,7 +16,7 @@ const Feature = () => {
             <p className="text-lg text-gray-600">Apply now to start working.</p>
         </div>
         <div className='flex justify-center items-center mt-10'>
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-3 md:grid-cols-3 grid-rows-1">
+        <div className="grid grid-cols-1 items-center justify-center gap-10 lg:grid-cols-3 md:grid-cols-3 grid-rows-1">
             <Image src={invision} alt="invision" height={150} width={150}/>
             <Image src={gitlab} alt="gitlab" height={150} width={150}/>
             <Image src={airbnb} alt="airbnb" height={150} width={150}/>

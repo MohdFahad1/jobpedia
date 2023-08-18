@@ -1,0 +1,20 @@
+
+  .swiper {
+    margin-top: 50px;
+    width: 750px;
+    height: 450px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+  
+  @media (max-width:468px){
+    .swiper{
+        width: 3880px;
+        height: 450px;
+    }
+  }
