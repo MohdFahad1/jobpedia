@@ -37,9 +37,12 @@ const page = () => {
             <p className="text-lg text-gray-600">We strive to create a world where job seekers everywhere have equal opportunity to find fulfilling jobs. A world where employers everywhere are focused on what matters and hire equitably. A world of work that works for everyone.</p>
           </div>
         </div>
+
         <div className="lg:px-5 px-[64px]">
           <p className="text-lg text-gray-600 lg:w-[900px] w-auto mt-10 lg:pl-28 pl-0">Our Environmental, Social & Governance (ESG) commitments aim to bring about a future of work that is equitable and inclusive. As the world’s number one job site [1] and a leading hiring platform, we strive to make a positive impact on society by connecting people to better work to create better lives.</p>
         </div>
+
+
         <div className="flex flex-col lg:px-[100px] px-5 bg-[#20B8DE] my-10 py-10">
           <div>
             <h1 className="text-4xl font-medium text-white">ESG is core to our business</h1>
@@ -57,6 +60,13 @@ const page = () => {
             </div>
           ))}
           </div>
+        </div>
+
+        <div className="lg:px-28 md:px-28 px-14 text-xl text-gray-600">
+          <p>As a mission-driven company, Indeed created our ESG commitments to go hand in hand with what we do best. We help all people get jobs. How we do that matters. By reducing our environmental footprint, making job search faster and simpler, removing bias and barriers to employment, and building sustainable equity for our people, we get closer to achieving our mission.</p>
+          <br />
+          <p>
+          This work is continuous, and our learnings are constantly growing. We are tackling systemic, deeply-rooted issues. As we work to make our ESG commitments a reality, we strive to be transparent about our progress and accountable to job seekers, employers, and our communities.</p>
         </div>
     </section>
   )
