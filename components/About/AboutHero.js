@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import { TbPointFilled } from 'react-icons/tb';
 import hero from '../../assets/about-hero.jpg';
 
 const AboutHero = () => {
