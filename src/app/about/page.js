@@ -2,6 +2,27 @@ import React from 'react';
 import AboutHero from '../../../components/About/AboutHero';
 import Image from 'next/image';
 import about1 from '../../../assets/about1.jpg';
+import comp1 from '../../../assets/comp1.png';
+import comp2 from '../../../assets/comp2.png';
+import comp3 from '../../../assets/comp3.png';
+import comp4 from '../../../assets/comp4.png';
+
+const data = [
+  {
+    img:comp1,
+    heading: "Make job search faster and simpler",
+  },{
+    img:comp2,
+    heading: "Remove bias and barriers to employment",
+  },{
+    img:comp3,
+    heading: "Build sustainable equity for our people through our policies and practices",
+  },{
+    img:comp4,
+    heading: "Reduce our environment footprint",
+  },
+]
+
 
 const page = () => {
   return (
@@ -18,6 +39,24 @@ const page = () => {
         </div>
         <div className="lg:px-5 px-[64px]">
           <p className="text-lg text-gray-600 lg:w-[900px] w-auto mt-10 lg:pl-28 pl-0">Our Environmental, Social & Governance (ESG) commitments aim to bring about a future of work that is equitable and inclusive. As the world’s number one job site [1] and a leading hiring platform, we strive to make a positive impact on society by connecting people to better work to create better lives.</p>
+        </div>
+        <div className="flex flex-col lg:px-[100px] px-5 bg-[#20B8DE] my-10 py-10">
+          <div>
+            <h1 className="text-4xl font-medium text-white">ESG is core to our business</h1>
+            <p className="text-xl text-white my-5">These four pillars guide everything we do.</p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10">
+          {data.map(({img, heading}, index) => (
+            <div key={index} className="bg-white rounded-xl flex flex-col justify-center items-center p-2">
+              <div>
+              <Image src={img} alt="logo" priority={true} className="h-[200px] w-[250px]"/>
+              </div>
+              <div>
+                <h1 className="text-2xl text-gray-700 font-medium mt-5">{heading}</h1>
+              </div>
+            </div>
+          ))}
+          </div>
         </div>
     </section>
   )
