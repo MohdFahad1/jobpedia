@@ -1,6 +1,7 @@
 @import '../../components/Navbar/Navbar.css';
 @import '../../components/common/Testimonials/styles.css';
 @import '../../components/About/AboutHero.css';
+@import '../../components/Home/Hero/Hero.css';
 
 @tailwind base;
 @tailwind components;

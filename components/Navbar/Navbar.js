@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="flex lg:justify-around lg:px-[0] items-center text-lg font-semibold py-3 h-auto justify-between px-5">
+    <nav className="flex lg:justify-around lg:px-[0] items-center text-lg font-semibold py-3 h-auto justify-between px-5 bg-transparent">
       <Link href="/">
         <Image src={logo} alt="logo" className="object-cover bg-transparent h-[50px] w-[50px] mt-2" />
       </Link>
