@@ -8,7 +8,7 @@ import apply from '../../../assets/applyLady.png';
 const Apply = () => {
   return (
     <section className="flex md:flex-col lg:flex-row lg:justify-around justify-center items-center px-5 my-5 md:my-14 lg:px-0">
-      <div className="bg-[#20b8DE] lg:flex justify-end rounded-tl-[248px] rounded-tr-[201px] rounded-bl-[150px] rounded-b-[110px]  h-[450px] w-[450px] hidden">
+      <div className="bg-[#4374C2] lg:flex justify-end rounded-tl-[248px] rounded-tr-[201px] rounded-bl-[150px] rounded-b-[110px]  h-[450px] w-[450px] hidden">
         <Image src={apply} alt="human" className="hidden md:block lg:block -scale-x-100  -mr-[100px] h-[450px] w-[600px]" />
       </div>
 
@@ -17,7 +17,7 @@ const Apply = () => {
 
         <div className="flex flex-col gap-5">
           <div className="flex gap-5 justify-start items-center p-3  shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md">
-            <div className="text-5xl bg-[#20B8DE] text-white p-2 flex justify-center items-center rounded-full">
+            <div className="text-5xl bg-[#4374C2] text-white p-2 flex justify-center items-center rounded-full">
               <RiAccountCircleLine />
             </div>
             <div>
@@ -27,7 +27,7 @@ const Apply = () => {
           </div>
 
           <div className="flex gap-5 justify-start items-center p-3  shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md">
-            <div className="text-5xl bg-[#20B8DE] text-white p-2 flex justify-center items-center rounded-full">
+            <div className="text-5xl bg-[#4374C2] text-white p-2 flex justify-center items-center rounded-full">
               <IoNewspaperOutline />
             </div>
             <div>
@@ -37,7 +37,7 @@ const Apply = () => {
           </div>
 
           <div className="flex gap-5 justify-start items-center p-3  shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md">
-            <div className="text-5xl bg-[#20B8DE] text-white p-2  flex justify-center items-center rounded-full">
+            <div className="text-5xl bg-[#4374C2] text-white p-2  flex justify-center items-center rounded-full">
               <TiTick />
             </div>
             <div>
