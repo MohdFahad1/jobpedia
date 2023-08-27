@@ -9,8 +9,7 @@ import 'swiper/css/navigation';
 
 import './styles.css';
 
-// import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import { FaQuoteRight } from 'react-icons/fa';
 
@@ -21,17 +20,21 @@ export default function App() {
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
           <div className="p-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:h-[400px] lg:w-[400px] flex flex-col justify-between h-[350px] w-[350px]">
             <div className="flex justify-between items-center">
               <Image src={pfp} alt="people" className="border-2 border-black rounded-full w-[80px] h-[80px] object-cover"/>
-              <FaQuoteRight className="text-5xl text-gray-400"/>
+              <FaQuoteRight className="text-5xl text-[#4374C2]"/>
             </div>
             <div className="text-left">
               <h1 className="text-2xl font-semibold">Bemard Amault</h1>
@@ -46,7 +49,7 @@ export default function App() {
         <div className="p-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:h-[400px] lg:w-[400px] flex flex-col justify-between h-[350px] w-[350px]">
             <div className="flex justify-between items-center">
               <Image src={pfp} alt="people" className="border-2 border-black rounded-full w-[80px] h-[80px] object-cover"/>
-              <FaQuoteRight className="text-5xl text-gray-400"/>
+              <FaQuoteRight className="text-5xl text-[#4374C2]"/>
             </div>
             <div className="text-left">
               <h1 className="text-2xl font-semibold">Bemard Amault</h1>
@@ -61,7 +64,7 @@ export default function App() {
         <div className="p-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:h-[400px] lg:w-[400px] flex flex-col justify-between h-[350px] w-[350px]">
             <div className="flex justify-between items-center">
               <Image src={pfp} alt="people" className="border-2 border-black rounded-full w-[80px] h-[80px] object-cover"/>
-              <FaQuoteRight className="text-5xl text-gray-400"/>
+              <FaQuoteRight className="text-5xl text-[#4374C2]"/>
             </div>
             <div className="text-left">
               <h1 className="text-2xl font-semibold">Bemard Amault</h1>
@@ -76,7 +79,7 @@ export default function App() {
         <div className="p-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:h-[400px] lg:w-[400px] flex flex-col justify-between h-[350px] w-[350px]">
             <div className="flex justify-between items-center">
               <Image src={pfp} alt="people" className="border-2 border-black rounded-full w-[80px] h-[80px] object-cover"/>
-              <FaQuoteRight className="text-5xl text-gray-400"/>
+              <FaQuoteRight className="text-5xl text-[#4374C2]"/>
             </div>
             <div className="text-left">
               <h1 className="text-2xl font-semibold">Bemard Amault</h1>

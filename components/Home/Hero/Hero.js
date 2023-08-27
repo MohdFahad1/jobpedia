@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Hero = () => {
     return (
         <section className="hero flex justify-around items-center px-0 mt-10 mb-10 md:justify-center lg:mt-0 lg:justify-normal relative lg:pl-[100px]">
-            <div className="text-center md:flex md:flex-col md:items-center lg:text-left lg:justify-normal lg:items-start">
+            <div className="text-center md:flex md:flex-col md:items-center lg:text-left lg:justify-normal lg:items-start z-10 text-box">
                 <h1 className="text-4xl font-bold w-auto lg:w-[800px] lg:text-7xl">Find <span className="text-[#4374C2]">Job</span> that is suitable for you</h1>
                 <p className="my-4 text-[20px] text-gray-500 w-auto md:w-[570px] lg:w-[720px]">
                     Unleash your career potential with our job searching site. Find tailored job opportunities that fit your goals. Join us today and step into a brighter professional future.</p>

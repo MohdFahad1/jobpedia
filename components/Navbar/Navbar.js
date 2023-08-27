@@ -6,28 +6,9 @@ import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const links =[
-    {
-      name:"Home",
-      to:"/"
-    },
-    {
-      name:"Find Jobs",
-      to:"/jobs"
-    },
-    {
-      name:"About Us",
-      to:"/about"
-    },
-    {
-      name:"Contact",
-      to:"/contact"
-    },
-  ]
-
 
   return (
-    <nav className="flex lg:justify-around lg:px-[0] items-center text-lg font-semibold justify-between px-5 bg-transparent h-[80px] shadow-md z-10">
+    <nav className="flex lg:justify-around lg:px-[0] items-center text-lg font-semibold justify-between px-5 bg-transparent h-[80px] shadow-sm">
       <Link href="/">
         <Image src={logo} alt="logo" className=" bg-transparent h-[60px] w-[70px] mt-2" />
       </Link>
