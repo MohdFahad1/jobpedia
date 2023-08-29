@@ -27,7 +27,7 @@ function page() {
         PageNumber: pageNumber,
       },
       headers: {
-        'X-RapidAPI-Key': '178d765ff6msh0e4ae865c3fc28dp19fc3bjsnde2dad363727',
+        'X-RapidAPI-Key': process.env.NEXT_PUBLIC_RAPID_APIKEY,
         'X-RapidAPI-Host': 'jobsearch4.p.rapidapi.com'
       }
     };
